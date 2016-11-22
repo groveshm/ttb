@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="Base Navbar template"/>
+    <meta name="keywords" content="Test"/>
+    <meta name="author" content="Hunter Groves"/>
+
+    <title>{{title}}</title>
+   
+    <!-- Bootstrap --> 
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <!-- Default stylesheet --> 
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+
+  <body>
+    <section id="navigation">
+	<div id="nav" class="navbar-fixed-top navbar-css" role="navigation">
+	    <div class="container-full">
+	        
+		<!-- Logo and Hamburger -->
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+
+		    <a class="navbar-brand" href="index.html">
+			<img src="images/logo-here" alt="LOGO"/>
+			<!-- Need svg logo here -->
+		    </a>		    
+
+		</div>
+
+		<!-- Nav Menu -->
+		<div class="navbar-collapse collapse">
+		    <ul class="nav navbar-nav pull-left nav-user">
+			<li>
+			    <a href="page1.html"> The Plan</a>
+			</li>
+			<li>
+			    <a href="page2.html"> Policy</a>
+			</li>
+			<li>
+			    <a href="page3.html"> Get Involved</a>
+			</li>
+			<li>
+			    <a href="page4.html"> Merch</a>
+			</li>
+		    </ul>
+		</div>
+	    </div>
+	</div>		
+
+    {{{body}}}
+  </body>
+
+</html>
