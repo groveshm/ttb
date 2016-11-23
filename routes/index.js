@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Navbar Template' });
+  res.render('index', { title: 'Turn TN Blue' });
 });
 
 module.exports = router;
